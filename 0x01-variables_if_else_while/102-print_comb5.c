@@ -11,10 +11,7 @@
 
 int main(void)
 {
-	int k = 48;
-	int m = 48;
-	int n = 48;
-	int p = 48;
+	int k, m, n, p;
 
 	k = 48;
 	while (k < 58)
