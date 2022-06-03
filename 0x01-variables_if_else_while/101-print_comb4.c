@@ -21,7 +21,7 @@ int main(void)
 		while (m < 58)
 		{
 			n = m + 1;
-			while (k < 58)
+			while (n < 58)
 			{
 				putchar(k);
 				putchar(m);
