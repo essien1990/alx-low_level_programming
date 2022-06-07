@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	char s[10] = "Essiennes";
+	char s[10] = "Essienne";
 	int n = 0;
 
 	for (n = 0; n < 9; n++)
