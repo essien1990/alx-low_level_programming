@@ -3,6 +3,8 @@
 /**
  * main - check the code
  *
+ * Description: Function to print alphabets
+ *
  * Return: Always 0.
  */
 
