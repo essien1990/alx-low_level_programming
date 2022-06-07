@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -11,7 +10,7 @@
 
 int main(void)
 {
-	char s[10] = "Essiennes";
+	char s[10] = "_putchar";
 	int n = 0;
 
 	for (n = 0; n < 9; n++)
