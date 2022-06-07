@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * File: main.h
+ * File: _putchar.c
  *
  * Author: Felix Adeh Essienne
  *
