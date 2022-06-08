@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints the first 98 Fibonacci numbers
+ * main - prints the sum of the even-valued terms 
  *
- * Description: prints 98 Fibonacci numbers
+ * Description: sum of the even-valued terms
  *
  * Return: 0 (success)
  */
