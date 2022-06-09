@@ -12,12 +12,12 @@
 
 void print_number(int n)
 {
-	int length, result, a, tmp, expo;
+	unsigned int length, result, a, tmp, expo;
 
 	result = n;
 	expo = length = 1;
 
-	if (result < 0)
+	if (n < 0)
 	{
 		result *= -1;
 		_putchar('-');
@@ -36,7 +36,7 @@ void print_number(int n)
 	while (expo > 1)
 	{
 		_putchar((result / expo) % 10 + '0');
-		expo = expo / 10;
+		expo /= 10;
 	}
 	_putchar(result % 10 + '0');
 }
