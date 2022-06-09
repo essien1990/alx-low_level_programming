@@ -12,7 +12,7 @@
 
 void print_number(int n)
 {
-	long length, result, a, tmp, expo;
+	int length, result, a, tmp, expo;
 
 	result = n;
 	expo = length = 1;
