@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - function that prints numbers
+ * print_number - function that prints numbers
  *
  * @n: number for input
  *
@@ -10,7 +10,7 @@
  * Return: returns nothing
  */
 
-void print_numbers(int n)
+void print_number(int n)
 {
 	long length, result, a, tmp, expo;
 
@@ -19,7 +19,7 @@ void print_numbers(int n)
 
 	if (result < 0)
 	{
-		resultt *= -1;
+		result *= -1;
 		_putchar('-');
 	}
 
