@@ -19,7 +19,7 @@ void print_numbers(int n)
 
 	if (result < 0)
 	{
-		result = result * -1;
+		resultt *= -1;
 		_putchar('-');
 	}
 
