@@ -25,6 +25,6 @@ int main(void)
 		else
 			break;
 	}
-	printf("%d\n", fac);
+	printf("%ld\n", fac);
 	return (0);
 }
