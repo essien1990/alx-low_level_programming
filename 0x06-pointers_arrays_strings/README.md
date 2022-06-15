@@ -21,10 +21,10 @@
 * A function that capitalizes all words of a string.
 
 
-* A function that encodes a string into 1337.
+* A function that encodes a string into [1337](https://alx-intranet.hbtn.io/rltoken/9v9KfpvWnL0GoMu5mozbug)
 
 
-* A function that encodes a string using rot13.
+* A function that encodes a string using [rot13](https://alx-intranet.hbtn.io/rltoken/YRxmNA7BnP6yZhl09TKX3A).
 
 
 * A function that prints an integer
