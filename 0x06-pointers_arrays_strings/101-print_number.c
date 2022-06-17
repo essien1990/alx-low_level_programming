@@ -11,7 +11,7 @@ void print_number(int n)
 
 	e = 1;
 
-	if (n > 0)
+	if (n >= 0)
 		r = n * -1;
 	else
 	{
