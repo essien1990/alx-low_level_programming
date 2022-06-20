@@ -34,7 +34,7 @@ char *_strstr(char *haystack, char *needle)
 
 	/*Get the length of needle for strncmp*/
 	length = 0;
-	while (*haystack != '\0')
+	while (needle[len] != '\0')
 		length++;
 	/*compare substrings*/
 	while (*haystack != '\0')
