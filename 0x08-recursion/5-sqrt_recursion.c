@@ -13,7 +13,7 @@ int check(int x, int base)
 		return (x);
 	if (x * x > base)
 		return (-1);
-	return (checker(x + 1, base));
+	return (check(x + 1, base));
 }
 
 /**
@@ -24,5 +24,5 @@ int check(int x, int base)
 
 int _sqrt_recursion(int n)
 {
-	return (checker(1, n));
+	return (check(1, n));
 }
