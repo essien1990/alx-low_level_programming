@@ -14,7 +14,7 @@ int check(int x, int base)
 	else if (x == base - 1)
 		return (1);
 	else if (base > x)
-		return (checker(x + 1, base));
+		return (check(x + 1, base));
 	return (1);
 }
 
