@@ -4,10 +4,8 @@
 
 /**
  * main - program that multiplies two positive numbers
- *
  * @argc: argument count, must be 3
  * @argv: arguments, argv[1] and argv[2]
- *
  * Return: product of argv[1] by argv[2]
  */
 
@@ -57,9 +55,7 @@ int main(int argc, char *argv[])
 
 /**
  * _isnumber - checks for digit-only (0 through 9) numbers
- *
  * @str: parameter hard-coded in main
- *
  * Return: 1 or 0
  */
 
@@ -92,9 +88,7 @@ void _error(void)
 
 /**
  * _strlen - function that returns the length of a string
- *
  * @s: parameter defined in main
- *
  * Return: length of string
  */
 
@@ -135,11 +129,9 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 /**
  * _memset - function that fills memory with a constant byte
- *
  * @s: parameter defined in main, pointer to memory area
  * @b: parameter defined in main, constant byte
  * @n: parameter defined in main, number of bytes to be filled
- *
  * Return: memory address of function (memory area)
  */
 
