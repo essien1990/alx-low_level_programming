@@ -11,30 +11,41 @@
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	int nlen, olen, i;
-	dog_t *doggy;
+	dog_t *p_dog;
+	int i, lname, lowner;
 
-	nlen = olen = 0;
-	while (name[nlen++])
+	p_dog = malloc(sizeof(*p_dog));
+	if (p_dog == NULL || !(name) || !(owner))
+	{
+		free(p_dog);
+		return (NULL);
+	}
+
+	for (lname = 0; name[lname]; lname++)
 		;
-	while (owner[olen++])
+
+	for (lowner = 0; owner[lowner]; lowner++)
 		;
-	doggy = malloc(sizeof(dog_t));
-	if (doggy == NULL)
-		return (NULL);
 
-	doggy->name = malloc(nlen * sizeof(doggy->name));
-	if (doggy == NULL)
+	p_dog->name = malloc(lname + 1);
+	p_dog->owner = malloc(lowner + 1);
+	if (!(p_dog->name) || !(p_dog->owner))
+	{
+		free(p_dog->owner);
+		free(p_dog->name);
+		free(p_dog);
 		return (NULL);
-	for (i = 0; i < nlen; i++)
-		doggy->name[i] = name[i];
+	}
 
-	doggy->age = age;
+	for (i = 0; i < lname; i++)
+		p_dog->name[i] = name[i];
+	p_dog->name[i] = '\0';
 
-	doggy->owner = malloc(olen * sizeof(doggy->owner));
-	if (doggy == NULL)
-		return (NULL);
-	for (i = 0; i < olen; i++)
-		doggy->owner[i] = owner[i];
-	return (doggy);
+	p_dog->age = age;
+
+	for (i = 0; i < lowner; i++)
+		p_dog->owner[i] = owner[i];
+	p_dog->owner[i] = '\0';
+
+	return (p_dog);
 }
