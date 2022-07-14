@@ -1,5 +1,5 @@
-# ALX SE C Programming - 0x12. C - Singly linked lists
-
+<h3>ALX SE C Programming - 0x12. C - Singly linked lists</h3>
+<hr>
 
 * A function that prints all the elements of a list_t list.
 
