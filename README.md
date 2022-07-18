@@ -1,1 +1,1 @@
-# ALX SE C Programming Project
+# ALX SE C Programming Projects
