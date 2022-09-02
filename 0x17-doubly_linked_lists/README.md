@@ -1,6 +1,6 @@
 # Doubly linked lists
 
-**ALX SE Python Programming - Doubly linked lists using **C language**.
+**ALX SE Python Programming** - Doubly linked lists using **C language**.
 
 ## Technologies
 * Scripts written in Bash 
