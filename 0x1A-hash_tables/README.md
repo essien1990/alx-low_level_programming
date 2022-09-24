@@ -1,5 +1,5 @@
 # Hash Tables
-** ALX SE Project** - Hash tables using C language.
+**ALX SE Project** - Hash tables using C language.
 
 ## Technologies
 * Scripts written in Bash 
