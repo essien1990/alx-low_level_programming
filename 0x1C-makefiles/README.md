@@ -6,7 +6,7 @@
 
 * Scripts written in Bash
 * C files are compiled using `gcc 9.3.0`
-* Python 3
+* Allowed editors: `vi`
 * Tested on Ubuntu 20.04 LTS
 * Version of `make`: GNU Make 4.2.1
 
